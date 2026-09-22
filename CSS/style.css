@@ -103,3 +103,36 @@ header {
         }
 
     }
+
+.container-product {
+    
+    margin: 2rem auto;
+    width: 100%;
+    text-align: center;
+
+/*    h2 {} */
+
+    .product-container {
+        /*border: 1px solid;
+        border-radius: 10px;*/
+        .description {
+            padding: 1rem;
+        }
+        .product-card {
+            border: 1px solid;
+            border-radius: 10pX;
+            width: 300px;
+            overflow: hidden;
+
+            .product-img {
+                object-fit: cover;
+                
+            }
+            .product-content {
+                text-align: left;
+                padding: 0.5rem;
+            }
+
+        }
+    }
+}    
