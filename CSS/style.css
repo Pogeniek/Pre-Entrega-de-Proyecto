@@ -8,8 +8,8 @@
 
 /* Variables */
 :root {
-    --color-primary: #ffe600;
-    --color-secundary: rgb(203, 86, 32);
+    --color-primary: #5aace4;
+    --color-secundary: #5782d7;
     --color-text: black;
 
     --font-main: Verdana, Geneva, Tahoma, sans-serif;
@@ -59,10 +59,11 @@ header {
         height: 300px;
         /*border: 1px solid;*/
         background-color: var(--color-primary);
-        background-image: url("../assets/img/vinilo-2-1.jpg") ;
+        background-image: url("../assets/img/ecomernos.png") ;
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
+        
         
         
         
