@@ -27,26 +27,49 @@ html {
 header {
         
     background-color: var(--color-secundary);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+
 
     .logo {
         width: 5rem;
         height: auto;
-        display: inline-block;
-        margin: 1rem;
+        /*display: inline-block;*/
+        margin: 1rem 0;
         }
 
         
     }
 
     .menu {
-        border: 1px solid;
-        display: inline-block;
-        vertical-align: 2.5rem;
+        /*border: 1px solid;*/
+        /*display: inline-block; */
+        /*vertical-align: 2.5rem; */
 
         .menu-principal {
             list-style: none;
-            li {
-                display: inline-table;
+            display: flex;
+            gap: 2rem;
+
+            li a {
+                /*display: inline-table;*/
+                border: 1px solid var(--color-secundary);
+                padding: 0.5rem 2rem;
+                border-radius: .75rem;
+                color: var(--color-secundary);
+                background-color: var(--color-primary);
+                cursor: pointer;
+                text-decoration: none;
+                transition:transform 0.8s ease;
+
+                &:hover {
+                    color: var(--color-primary);
+                    background-color: var(--color-secundary);
+                    border-color: var(--color-text);
+                    transform: scale(1.5);
+                }
             }
         }
     }
