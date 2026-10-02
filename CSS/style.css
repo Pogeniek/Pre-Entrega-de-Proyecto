@@ -9,7 +9,7 @@
 /* Variables */
 :root {
     --color-primary: #5aace4;
-    --color-secundary: #f3b050;
+    --color-secundary: #a172c8;
     --color-text: black;
 
     --font-main: Verdana, Geneva, Tahoma, sans-serif;
@@ -130,13 +130,23 @@ header {
 
 .container-product {
     
-    margin: 2rem auto;
+    /*margin: 2rem auto;*/
     width: 100%;
     text-align: center;
+    background-color: var(--color-secundary);
 
-/*    h2 {} */
+    h2, h3 {
+        color: aliceblue;
+        padding: 1.5rem 0 0;
+    } 
 
     .product-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+        padding-top: 1rem;
+
         /*border: 1px solid;
         border-radius: 10px;*/
         .description {
@@ -146,8 +156,9 @@ header {
             border: 1px solid;
             border-radius: 10pX;
             width: 300px;
-            height: 500px;
+            /*height: 500px;*/
             overflow: hidden;
+            background-color: antiquewhite;
             
             
 
@@ -196,6 +207,10 @@ header {
                 }
             }
 
+        }
+        &:hover { /*este hover no se aplica por alguna razon desconocida*/
+            transform: scale(1,1);
+            box-shadow: 4px 4px 4px var(--color-primary);
         }
     }
 }    
