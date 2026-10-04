@@ -1,10 +1,10 @@
 # Pre Entrega Fron-End-JS Talentotech
-## Alumno: Marcos Vargas 
-Comisión: 26237
+### Alumno: Marcos Vargas
+### Comisión: 26237
 
-## Proyecto que simula una pagina de E'comerce destinada a la venta de Discos compactos de segunda mano.
+### Proyecto que simula una pagina de E'comerce destinada a la venta de Discos compactos de segunda mano.
 
-## El proyeco cuenta con:
+### El proyeco cuenta con:
 
 1. Estructura básica de HTML.
 2. Formulario de contacto.
